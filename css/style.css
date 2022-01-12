@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.orange-color{
+    color: rgb(241, 140, 7);
+   
+}
+.faxible-container{
+    display: flex;
+}
+.half{
+    width: 40%;
+    padding-left: 10%;
+}
+.boder{
+    border-image: linear-gradient(tomato,salmon);
+    border-image-slice:1;
+    border-left: 5px solid;
+   
+}
+.padding-t{
+    padding-top: 100px;
+}
+.header{
+    padding-top: 20px;
+}
+.half img{
+    width: 60%;
+}
+.button-desigen{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(245, 99, 2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.para{
+    font-size: 20px;
+    width: 80%;
+}
+/*header ends*/
+.center{
+    text-align: center;
+}
+.illistation{
+    width: 20%;
+    padding-left: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+#miision1{
+    background-color: #EEF6F7;
+    
+}
+#miision2{
+    background-color: #FFEFEF ;
+}
+#miision3{
+    background-color: #FFF4D6;
+}
+.mission-img{
+    width: 200px;
+    height: 200px;
+}
+.mission-para{
+    font-size: 20px;
+}
+
+.Develop{
+    margin-top: 100px;
+}
+.develope-text{
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+}
+.projec-area{
+    margin-top: 50px;
+}
+.map{
+    margin-top: 50px;
+    min-height: 100px;
+    display: grid;
+    align-items: center;text-align: center;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    padding-top: 50px;
+}
+footer h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.footer-text{
+    color: #FF5959;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+
+orm {
+    display: flex;
+    flex-wrap: wrap;
+    
+    & > input {
+      flex: 1 1 10ch;
+      margin: .5rem;
+      
+      &[type="email"] {
+        flex: 3 1 30ch;
+      }
+    }
+  }
+  
+  input {
+    border: none;
+    background: hsl(0 0% 93%);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    
+    &[type="submit"] {
+      background: hotpink;
+      color: white;
+      box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+    }
+  }
+  
